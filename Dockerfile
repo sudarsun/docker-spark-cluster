@@ -18,7 +18,7 @@ RUN wget --no-verbose -O apache-spark.tgz "https://archive.apache.org/dist/spark
 && rm apache-spark.tgz
 
 
-FROM builder AS spache-spark
+FROM builder AS apache-spark
 
 WORKDIR /opt/spark
 
